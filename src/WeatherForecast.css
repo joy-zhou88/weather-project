@@ -1,0 +1,19 @@
+.forecast-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.forecast-day{
+    margin-right:30px;
+}
+.weather-icon{
+    /* visibility:hidden; */
+    display: none;
+}
+.city-search > input{
+    width: 150px;
+    height: 32px;
+    font-size: 18px;
+}
