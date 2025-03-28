@@ -56,11 +56,3 @@ npm run build
 # 预览生产版本
 npm run preview
 
-## 🖼️ 截图预览
-
-<div align="center">
-  
-![桌面端截图](https://github.com/joy-zhou88/weather-project/raw/main/screenshots/desktop.png)
-![移动端截图](https://github.com/joy-zhou88/weather-project/raw/main/screenshots/mobile.png)
-
-</div>
