@@ -13,7 +13,14 @@
     display: none;
 }
 .city-search > input{
+    outline: none;
+    border:1px solid #e3e3e3;
+    border-radius:5px;
     width: 150px;
-    height: 32px;
+    height: 38px;
     font-size: 18px;
+    margin-right:2px;
+}
+.city-search > button{
+    background-color: steelblue;
 }
