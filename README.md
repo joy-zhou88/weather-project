@@ -60,4 +60,4 @@ npm run preview
 
 | 桌面端 | 移动端 |
 |--------|--------|
-| ![桌面端截图](screenshots/desktop.png) | ![移动端截图](screenshots/mobile.png) |
+| ![桌面端](https://github.com/joy-zhou88/weather-project/raw/main/screenshots/desktop.png) | ![移动端](https://github.com/joy-zhou88/weather-project/raw/main/screenshots/mobile.png) |
