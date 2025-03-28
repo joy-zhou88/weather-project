@@ -79,7 +79,7 @@ const WeatherForecast: React.FC = () => {
   const [error, setError] = useState<string>('');
   
   // 请替换为你的和风天气API Key
-  const HE_WEATHER_KEY = '187c8d59087442b988c9eb1de3bac01f';
+  const HE_WEATHER_KEY = import.meta.env.VITE_API_KEY;
 
   const fetchWeatherData = async (cityName: string) => {
     setLoading(true);

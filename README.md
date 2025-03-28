@@ -1,54 +1,63 @@
-# React + TypeScript + Vite
+# 🌤️ Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Vite](https://img.shields.io/badge/Vite-4.4.0-646CFF?logo=vite)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/github/license/joy-zhou88/weather-project)](LICENSE)
 
-Currently, two official plugins are available:
+基于和风天气API构建的现代化天气查询应用，具备实时数据展示和响应式设计。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## ✨ 核心功能
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🔍 实时城市天气查询
+- 📅 7天天气预报展示
+- 🌡️ 温度、湿度、风速等多维度数据
+- 📱 响应式设计（适配移动端和桌面端）
+- ⚡ Vite驱动的极速开发体验
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 快速开始
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 前置要求
+- Node.js ≥ 18
+- npm ≥ 10
+- 和风天气API Key（[免费注册](https://dev.qweather.com/)）
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 开发环境
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+```bash
+# 克隆项目
+git clone https://github.com/joy-zhou88/weather-project.git
+cd weather-project
+
+# 安装依赖
+npm install
+
+# 配置API密钥 (需先注册和风天气)
+### 获取API Key
+1. 访问[和风天气开发者平台](https://dev.qweather.com/)
+2. 点击右上角"注册"创建账号
+3. 登录后进入[控制台](https://console.qweather.com/)
+4. 在「应用管理」中点击「创建应用」
+   - 应用名称：填写您的应用名（如"WeatherApp"）
+   - 应用类型：选择「普通应用」
+   - 选择「Web API」作为平台
+5. 创建成功后，在应用列表中查看您的API Key
+
+# 复制环境模板文件
+cp .env
+
+# 启动开发服务器
+npm run dev
+
+# 构建生产版本
+npm run build
+
+# 预览生产版本
+npm run preview
+
+## 🖼️ 截图预览
+
+| 桌面端 | 移动端 |
+|--------|--------|
+| ![桌面端截图](screenshots/desktop.png) | ![移动端截图](screenshots/mobile.png) |
