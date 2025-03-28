@@ -58,6 +58,8 @@ npm run preview
 
 ## 🖼️ 截图预览
 
-| 桌面端 | 移动端 |
-|--------|--------|
-| ![桌面端](https://github.com/joy-zhou88/weather-project/raw/main/screenshots/desktop.png) | ![移动端](https://github.com/joy-zhou88/weather-project/raw/main/screenshots/mobile.png) |
+
+<div align="center">
+  <img src="https://github.com/joy-zhou88/weather-project/raw/main/screenshots/desktop.png" width="45%">
+  <img src="https://github.com/joy-zhou88/weather-project/raw/main/screenshots/mobile.png" width="45%">
+</div>
